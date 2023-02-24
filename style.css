@@ -1,0 +1,25 @@
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+li {
+  position: relative;
+  padding: 10px;
+  margin-bottom: 2px;
+  background-color: #ccc;
+}
+
+.delete {
+  position: absolute;
+  top: 6px;
+  right: 20px;
+  padding: 4px 10px;
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.content{
+  cursor: pointer;
+}
