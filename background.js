@@ -6,7 +6,7 @@ const ActionTypes = {
   serpReturn: "serpReturn"      // return to SERP;          data = {}
 }
 
-const production = false
+const production = true
 var currentTab = 0;
 var currentSession = -1;
 var highestSessionID = -1;
@@ -263,7 +263,7 @@ async function getMaxSim(text, others){
   const sim = await makeAPIRequest("/maxSim", {text: text, others: others})
   return sim.result
 }
-async function makeAPIRequest(route, data, production = false){
+async function makeAPIRequest(route, data){
   var url = ""
   if(production)
     url = "https://hitzginger.com/api"

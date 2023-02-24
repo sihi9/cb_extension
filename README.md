@@ -2,6 +2,12 @@
 
 This is a Chrome Browser Extension to detect potential confirmation bias
 
+It is only a Proof of Concept and not intended for normal use
+
+It furthermore relies on a private server running on https://hitzginger.com/api, which will not always be availabe
+
+Use and modify at own risk. No security and privacy guarantees are given
+
 ## Installation
 
 1. open Google Chrome
